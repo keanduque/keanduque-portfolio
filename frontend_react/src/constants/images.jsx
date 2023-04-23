@@ -25,6 +25,7 @@ import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 
 import profile from "../assets/profile.png";
+import profile_svg from "../assets/profile.svg";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
 import klogo2 from "../assets/klogo2.png";
@@ -62,6 +63,7 @@ export default {
 	about03,
 	about04,
 	profile,
+	profile_svg,
 	circle,
 	logo,
 	klogo2,

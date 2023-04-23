@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Tooltip as ReactTooltip } from "react-tooltip";
-import { AppWrap } from "../../wrapper";
+import { Tooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
+import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
 
 import "./Skills.scss";
@@ -61,11 +62,10 @@ function Skills() {
 								{experience.works.map((work) => (
 									<>
 										<motion.div
+											data-tooltip-id={work.name}
 											whileInView={{ opacity: [0, 1] }}
 											transition={{ duration: 0.5 }}
-											className="app__skills-exp-work app__flex"
-											data-tip
-											data-for={work.name}
+											className="app__skills-exp-work"
 											key={work.name}>
 											<h4 className="bold-text">
 												{work.name}
@@ -74,13 +74,11 @@ function Skills() {
 												{work.company}
 											</p>
 										</motion.div>
-										<ReactTooltip
+										<Tooltip
 											id={work.name}
-											effect="solid"
-											arrowColor="#fff"
-											className="skills-tooltip">
-											{work.desc}
-										</ReactTooltip>
+											content={work.desc}
+											className="skills-tooltip"
+										/>
 									</>
 								))}
 							</motion.div>
@@ -92,4 +90,8 @@ function Skills() {
 	);
 }
 
-export default AppWrap(Skills, "skills");
+export default AppWrap(
+	MotionWrap(Skills, "app__skills"),
+	"skills",
+	"app__whitebg"
+);
