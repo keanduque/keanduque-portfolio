@@ -1,4 +1,4 @@
-# Kean Duque Personal Website
+# Kean Duque Portfolio
 
 This is my Personal Portfolio made with React-JS
 my website still in-progress...
