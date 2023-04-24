@@ -1,23 +1,18 @@
-# Gamer-Spot
+# Kean Duque Personal Website
 
-This Gamer-spot is a React Replicate of rawg.io some components are implemented on this app.
+This is my Personal Portfolio made with React-JS
+my website still in-progress...
 
 ## Tech Stack
 
-**Client:** React, Redux, Chakra-UI, Vite, TypeScript
+**Client:** React, FramerMotion, Vite, JavaSript, SanityClient
 
-**Server:** Rawg API
+**Server:** Sanity for DB
 
 ## Other Tools
 
 -   react-icons@4.7.1
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+-   react-tooltip@5.11.1
 
 ## License
 
