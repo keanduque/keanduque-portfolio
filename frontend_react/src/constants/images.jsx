@@ -1,19 +1,14 @@
 import email from "../assets/email.png";
 import mobile from "../assets/mobile.png";
 import api from "../assets/api.png";
-import cpp from "../assets/cpp.png";
 import css from "../assets/css.png";
 import figma from "../assets/figma.png";
-import flutter from "../assets/flutter.png";
 import git from "../assets/git.png";
-import graphql from "../assets/graphql.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
-import mu5 from "../assets/mu5.png";
 import node from "../assets/node.png";
 import python from "../assets/python.png";
 import react from "../assets/react.png";
-import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
 import vue from "../assets/vue.png";
@@ -25,10 +20,8 @@ import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 
 import profile from "../assets/profile.png";
-import profile_svg from "../assets/profile.svg";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
-import klogo2 from "../assets/klogo2.png";
 
 import adidas from "../assets/adidas.png";
 import amazon from "../assets/amazon.png";
@@ -42,19 +35,14 @@ export default {
 	email,
 	mobile,
 	api,
-	cpp,
 	css,
 	figma,
-	flutter,
 	git,
-	graphql,
 	html,
 	javascript,
-	mu5,
 	node,
 	python,
 	react,
-	redux,
 	sass,
 	typescript,
 	vue,
@@ -63,10 +51,9 @@ export default {
 	about03,
 	about04,
 	profile,
-	profile_svg,
 	circle,
 	logo,
-	klogo2,
+
 	adidas,
 	amazon,
 	asus,
