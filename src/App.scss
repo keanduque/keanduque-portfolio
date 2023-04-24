@@ -11,6 +11,10 @@
 	background-color: var(--primary-color);
 }
 
+.app__contactbg {
+	background-color: #2d333b;
+}
+
 .app__container {
 	width: 100%;
 	min-height: 100vh;
@@ -51,6 +55,10 @@
 	}
 }
 
+.head-text-footer {
+	color: #ffffff !important;
+}
+.head-text-footer,
 .head-text {
 	font-size: 2.75rem;
 	font-weight: 800;

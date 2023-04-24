@@ -39,7 +39,15 @@ function Footer() {
 
 	return (
 		<>
-			<h2 className="head-text">Take a coffee & chat with me</h2>
+			<h2 className="head-text-footer">Get in Touch</h2>
+			<div className="app__footer-form app__flex">
+				<p className="app__footer-contact">
+					I'm currently looking for any opportunities, please contact
+					me on my email or phone number below. or just leave a
+					message on the contact form below. I'll try my best to get
+					back to you!
+				</p>
+			</div>
 
 			<div className="app__footer-cards">
 				<div className="app__footer-card">
@@ -108,5 +116,5 @@ function Footer() {
 export default AppWrap(
 	MotionWrap(Footer, "app__footer"),
 	"contact",
-	"app__whitebg"
+	"app__contactbg"
 );

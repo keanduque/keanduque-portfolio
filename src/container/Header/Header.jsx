@@ -54,7 +54,7 @@ function Header() {
 				variant={scaleVariants}
 				whileInView={scaleVariants.whileInView}
 				className="app__header-circles">
-				{[images.html, images.javascript, images.sass].map(
+				{[images.html, images.javascript, images.css].map(
 					(circle, index) => (
 						<div
 							className="circle-cmp app__flex"

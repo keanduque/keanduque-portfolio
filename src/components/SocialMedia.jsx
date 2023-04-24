@@ -6,13 +6,19 @@ function SocialMedia() {
 	return (
 		<div className="app__social">
 			<div>
-				<BsTwitter />
+				<a href="https://twitter.com/keanduque">
+					<BsTwitter />
+				</a>
 			</div>
 			<div>
-				<FaFacebookF />
+				<a href="https://www.facebook.com/keanduque">
+					<FaFacebookF />
+				</a>
 			</div>
 			<div>
-				<BsInstagram />
+				<a href="https://www.instagram.com/keanmind27">
+					<BsInstagram />
+				</a>
 			</div>
 		</div>
 	);

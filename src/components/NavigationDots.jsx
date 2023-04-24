@@ -15,7 +15,7 @@ function NavigationDots({ active }) {
 					href={`#${nav}`}
 					key={nav + index}
 					className="app__navigation-dot"
-					style={active === nav ? { backgroundColor: "#313BAC" } : {}}
+					style={active === nav ? { backgroundColor: "#f45808" } : {}}
 				/>
 			))}
 		</div>
