@@ -27,7 +27,7 @@ function Navbar() {
 
 				{toggle && (
 					<motion.div
-						whileInView={{ x: [50, 100], opacity: [0.9, 1] }}
+						whileInView={{ x: [50, 300], opacity: [0.9, 1] }}
 						transition={{
 							duration: 0.85,
 							ease: "easeOut",
